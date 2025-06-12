@@ -16,56 +16,1117 @@ chunk-YQOESBWP.js    | -                           | 754 bytes |
                      | Initial total               | 129.72 kB
 
 Lazy chunk files     | Names                       |  Raw size
-chunk-KUZ3CYBW.js    | growth-statistics-component |   1.33 kB | 
-chunk-RHTMFAYC.js    | recommendations-component   |   1.30 kB | 
+chunk-FKO5NO43.js    | growth-statistics-component |   2.67 kB | 
+chunk-Q5IEF5CL.js    | recommendations-component   |   2.67 kB | 
+chunk-F5WHXQRV.js    | jobs-component              |   2.44 kB | 
 chunk-VMHR2GUF.js    | dashboard-home-component    |   1.26 kB | 
 chunk-AFXL643V.js    | statistics-component        |   1.23 kB | 
 chunk-Y2C2ULPK.js    | profile-component           |   1.16 kB | 
-chunk-EEFR4D5G.js    | jobs-component              |   1.12 kB | 
 
 
 Server bundles      
 Initial chunk files  | Names                       |  Raw size
 polyfills.server.mjs | polyfills.server            | 572.91 kB | 
-chunk-PG7Q6GTF.mjs   | -                           |  36.96 kB | 
+chunk-KDN4ED7X.mjs   | -                           |  36.96 kB | 
 server.mjs           | server                      |   1.42 kB | 
 main.server.mjs      | main.server                 | 831 bytes | 
 chunk-FFILDKJJ.mjs   | -                           | 788 bytes | 
 
 Lazy chunk files     | Names                       |  Raw size
-chunk-63B4BVQ4.mjs   | growth-statistics-component |   1.36 kB | 
-chunk-KCMPUHS7.mjs   | recommendations-component   |   1.34 kB | 
+chunk-3GPY3KBR.mjs   | growth-statistics-component |   2.71 kB | 
+chunk-F6JFAWYU.mjs   | recommendations-component   |   2.70 kB | 
+chunk-4VRIFPRM.mjs   | jobs-component              |   2.48 kB | 
 chunk-JUCKFMSK.mjs   | dashboard-home-component    |   1.30 kB | 
 chunk-WBWRHEXS.mjs   | statistics-component        |   1.26 kB | 
 chunk-DYHVURIR.mjs   | profile-component           |   1.20 kB | 
-chunk-DA573AC4.mjs   | jobs-component              |   1.16 kB | 
 
-Application bundle generation complete. [2.278 seconds]
+Application bundle generation complete. [2.444 seconds]
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
+3:05:04 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+3:05:04 PM [vite] (ssr) Re-optimizing dependencies because vite config has changed
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.413 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:25:21:
+      25 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:28:21:
+      28 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:31:21:
+      31 │       <ng-container *ngIf="stats && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:39:16:
+      39 │           <pre *ngIf="stats | json as jsonStr"><code>{{ jsonStr }}...
+         ╵                 ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:42:21:
+      42 │       <ng-container *ngIf="!stats && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:18:58:
+      18 │ ...ubmit()" class="spaced" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:21:17:
+      21 │           <input [(ngModel)]="occupation" name="occupation" requir...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.319 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:23:21:
+      23 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:26:21:
+      26 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:29:21:
+      29 │       <ng-container *ngIf="recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:33:17:
+      33 │             <li *ngFor="let rec of recommendations">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:34:37:
+      34 │ ...       {{ rec.title }} <span *ngIf="rec.score">&ndash; Fit Scor...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:40:21:
+      40 │       <ng-container *ngIf="!recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:25:21:
+      25 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:28:21:
+      28 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:31:21:
+      31 │       <ng-container *ngIf="stats && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:39:16:
+      39 │           <pre *ngIf="stats | json as jsonStr"><code>{{ jsonStr }}...
+         ╵                 ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:42:21:
+      42 │       <ng-container *ngIf="!stats && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:16:52:
+      16 │ ...)="onSubmit()" #recommendForm="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:19:17:
+      19 │           <input [(ngModel)]="userProfile.interest" name="interest...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:18:58:
+      18 │ ...ubmit()" class="spaced" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:21:17:
+      21 │           <input [(ngModel)]="occupation" name="occupation" requir...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.371 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:24:21:
+      24 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:27:21:
+      27 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:30:21:
+      30 │       <ng-container *ngIf="jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:34:17:
+      34 │             <li *ngFor="let job of jobs">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:36:81:
+      36 │ ...ion }} | {{ job.type }} | <a *ngIf="job.url" [href]="job.url" t...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:41:21:
+      41 │       <ng-container *ngIf="!jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:23:21:
+      23 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:26:21:
+      26 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:29:21:
+      29 │       <ng-container *ngIf="recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:33:17:
+      33 │             <li *ngFor="let rec of recommendations">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:34:37:
+      34 │ ...       {{ rec.title }} <span *ngIf="rec.score">&ndash; Fit Scor...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:40:21:
+      40 │       <ng-container *ngIf="!recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:25:21:
+      25 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:28:21:
+      28 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:31:21:
+      31 │       <ng-container *ngIf="stats && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:39:16:
+      39 │           <pre *ngIf="stats | json as jsonStr"><code>{{ jsonStr }}...
+         ╵                 ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:42:21:
+      42 │       <ng-container *ngIf="!stats && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:17:43:
+      17 │ ...(ngSubmit)="onSubmit()" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:20:17:
+      20 │           <input [(ngModel)]="jobSearch" name="jobSearch" required...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:16:52:
+      16 │ ...)="onSubmit()" #recommendForm="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:19:17:
+      19 │           <input [(ngModel)]="userProfile.interest" name="interest...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:18:58:
+      18 │ ...ubmit()" class="spaced" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:21:17:
+      21 │           <input [(ngModel)]="occupation" name="occupation" requir...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.488 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:24:21:
+      24 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:27:21:
+      27 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:30:21:
+      30 │       <ng-container *ngIf="jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:34:17:
+      34 │             <li *ngFor="let job of jobs">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:36:81:
+      36 │ ...ion }} | {{ job.type }} | <a *ngIf="job.url" [href]="job.url" t...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:41:21:
+      41 │       <ng-container *ngIf="!jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:23:21:
+      23 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:26:21:
+      26 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:29:21:
+      29 │       <ng-container *ngIf="recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:33:17:
+      33 │             <li *ngFor="let rec of recommendations">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:34:37:
+      34 │ ...       {{ rec.title }} <span *ngIf="rec.score">&ndash; Fit Scor...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:40:21:
+      40 │       <ng-container *ngIf="!recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:26:21:
+      26 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:29:21:
+      29 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:32:21:
+      32 │       <ng-container *ngIf="stats && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:40:16:
+      40 │           <pre *ngIf="stats | json as jsonStr"><code>{{ jsonStr }}...
+         ╵                 ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:43:21:
+      43 │       <ng-container *ngIf="!stats && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:17:43:
+      17 │ ...(ngSubmit)="onSubmit()" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:20:17:
+      20 │           <input [(ngModel)]="jobSearch" name="jobSearch" required...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:16:52:
+      16 │ ...)="onSubmit()" #recommendForm="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:19:17:
+      19 │           <input [(ngModel)]="userProfile.interest" name="interest...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:19:58:
+      19 │ ...ubmit()" class="spaced" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/statistics/growth-statistics.component.ts:22:17:
+      22 │           <input [(ngModel)]="occupation" name="occupation" requir...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.294 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:24:21:
+      24 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:27:21:
+      27 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:30:21:
+      30 │       <ng-container *ngIf="jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:34:17:
+      34 │             <li *ngFor="let job of jobs">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:36:81:
+      36 │ ...ion }} | {{ job.type }} | <a *ngIf="job.url" [href]="job.url" t...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:41:21:
+      41 │       <ng-container *ngIf="!jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:23:21:
+      23 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:26:21:
+      26 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:29:21:
+      29 │       <ng-container *ngIf="recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:33:17:
+      33 │             <li *ngFor="let rec of recommendations">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:34:37:
+      34 │ ...       {{ rec.title }} <span *ngIf="rec.score">&ndash; Fit Scor...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:40:21:
+      40 │       <ng-container *ngIf="!recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:17:43:
+      17 │ ...(ngSubmit)="onSubmit()" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:20:17:
+      20 │           <input [(ngModel)]="jobSearch" name="jobSearch" required...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:16:52:
+      16 │ ...)="onSubmit()" #recommendForm="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:19:17:
+      19 │           <input [(ngModel)]="userProfile.interest" name="interest...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.235 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:24:21:
+      24 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:27:21:
+      27 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:30:21:
+      30 │       <ng-container *ngIf="jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:34:17:
+      34 │             <li *ngFor="let job of jobs">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:36:81:
+      36 │ ...ion }} | {{ job.type }} | <a *ngIf="job.url" [href]="job.url" t...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:41:21:
+      41 │       <ng-container *ngIf="!jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:23:21:
+      23 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:26:21:
+      26 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:29:21:
+      29 │       <ng-container *ngIf="recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:33:17:
+      33 │             <li *ngFor="let rec of recommendations">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:34:37:
+      34 │ ...       {{ rec.title }} <span *ngIf="rec.score">&ndash; Fit Scor...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:40:21:
+      40 │       <ng-container *ngIf="!recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:17:43:
+      17 │ ...(ngSubmit)="onSubmit()" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:20:17:
+      20 │           <input [(ngModel)]="jobSearch" name="jobSearch" required...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:16:52:
+      16 │ ...)="onSubmit()" #recommendForm="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:19:17:
+      19 │           <input [(ngModel)]="userProfile.interest" name="interest...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.221 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:24:21:
+      24 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:27:21:
+      27 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:30:21:
+      30 │       <ng-container *ngIf="jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:34:17:
+      34 │             <li *ngFor="let job of jobs">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:36:81:
+      36 │ ...ion }} | {{ job.type }} | <a *ngIf="job.url" [href]="job.url" t...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:41:21:
+      41 │       <ng-container *ngIf="!jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:25:21:
+      25 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:28:21:
+      28 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:31:21:
+      31 │       <ng-container *ngIf="recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:35:17:
+      35 │             <li *ngFor="let rec of recommendations">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:36:37:
+      36 │ ...       {{ rec.title }} <span *ngIf="rec.score">&ndash; Fit Scor...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:42:21:
+      42 │       <ng-container *ngIf="!recommendations && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:17:43:
+      17 │ ...(ngSubmit)="onSubmit()" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:20:17:
+      20 │           <input [(ngModel)]="jobSearch" name="jobSearch" required...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:18:52:
+      18 │ ...)="onSubmit()" #recommendForm="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/recommendations/recommendations.component.ts:21:17:
+      21 │           <input [(ngModel)]="userProfile.interest" name="interest...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.274 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:24:21:
+      24 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:27:21:
+      27 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:30:21:
+      30 │       <ng-container *ngIf="jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:34:17:
+      34 │             <li *ngFor="let job of jobs">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:36:81:
+      36 │ ...ion }} | {{ job.type }} | <a *ngIf="job.url" [href]="job.url" t...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:41:21:
+      41 │       <ng-container *ngIf="!jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:17:43:
+      17 │ ...(ngSubmit)="onSubmit()" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:20:17:
+      20 │           <input [(ngModel)]="jobSearch" name="jobSearch" required...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.253 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:24:21:
+      24 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:27:21:
+      27 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:30:21:
+      30 │       <ng-container *ngIf="jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:34:17:
+      34 │             <li *ngFor="let job of jobs">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:36:81:
+      36 │ ...ion }} | {{ job.type }} | <a *ngIf="job.url" [href]="job.url" t...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:41:21:
+      41 │       <ng-container *ngIf="!jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:17:43:
+      17 │ ...(ngSubmit)="onSubmit()" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:20:17:
+      20 │           <input [(ngModel)]="jobSearch" name="jobSearch" required...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.216 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:26:21:
+      26 │       <ng-container *ngIf="loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:29:21:
+      29 │       <ng-container *ngIf="error && !loading">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:32:21:
+      32 │       <ng-container *ngIf="jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:36:17:
+      36 │             <li *ngFor="let job of jobs">
+         ╵                  ~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:38:81:
+      38 │ ...ion }} | {{ job.type }} | <a *ngIf="job.url" [href]="job.url" t...
+         ╵                                  ~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:43:21:
+      43 │       <ng-container *ngIf="!jobs?.length && !loading && !error">
+         ╵                      ~~~~
+
+
+✘ [ERROR] NG8003: No directive found with exportAs 'ngForm'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:19:43:
+      19 │ ...(ngSubmit)="onSubmit()" #form="ngForm" style="margin-bottom:1em;">
+         ╵                                   ~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/pages/jobs/job-opportunities.component.ts:22:17:
+      22 │           <input [(ngModel)]="jobSearch" name="jobSearch" required...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names                       |  Raw size
+polyfills.js         | polyfills                   |  90.20 kB | 
+main.js              | main                        |  36.49 kB | 
+styles.css           | styles                      |   2.27 kB | 
+chunk-YQOESBWP.js    | -                           | 754 bytes | 
+
+                     | Initial total               | 129.72 kB
+
+Lazy chunk files     | Names                       |  Raw size
+chunk-6E344P4H.js    | jobs-component              |  10.59 kB | 
+chunk-AR7QIMFU.js    | recommendations-component   |   9.45 kB | 
+chunk-ZJCNTE6G.js    | growth-statistics-component |   9.30 kB | 
+chunk-VMHR2GUF.js    | dashboard-home-component    |   1.26 kB | 
+chunk-AFXL643V.js    | statistics-component        |   1.23 kB | 
+chunk-Y2C2ULPK.js    | profile-component           |   1.16 kB | 
+
+
+Server bundles      
+Initial chunk files  | Names                       |  Raw size
+polyfills.server.mjs | polyfills.server            | 572.91 kB | 
+chunk-SOU7XUYL.mjs   | -                           |  36.96 kB | 
+server.mjs           | server                      |   1.42 kB | 
+main.server.mjs      | main.server                 | 831 bytes | 
+chunk-FFILDKJJ.mjs   | -                           | 788 bytes | 
+
+Lazy chunk files     | Names                       |  Raw size
+chunk-L4I5TNIN.mjs   | jobs-component              |  10.63 kB | 
+chunk-NDV5RK4J.mjs   | recommendations-component   |   9.49 kB | 
+chunk-YPCHOD2T.mjs   | growth-statistics-component |   9.33 kB | 
+chunk-JUCKFMSK.mjs   | dashboard-home-component    |   1.30 kB | 
+chunk-WBWRHEXS.mjs   | statistics-component        |   1.26 kB | 
+chunk-DYHVURIR.mjs   | profile-component           |   1.20 kB | 
+
+Application bundle generation complete. [1.024 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
 Browser bundles    
 Initial chunk files | Names          |  Raw size
 main.js             | main           |  36.49 kB | 
 
 Lazy chunk files    | Names          |  Raw size
-chunk-UZC3JGCT.js   | jobs-component |   2.30 kB | 
+chunk-SXUHE52C.js   | jobs-component |  10.59 kB | 
 
 
 Server bundles     
 Initial chunk files | Names          |  Raw size
-chunk-ZFQHYFSK.mjs  | -              |  36.96 kB | 
+chunk-2B2O2IHG.mjs  | -              |  36.96 kB | 
 server.mjs          | server         |   1.42 kB | 
 main.server.mjs     | main.server    | 831 bytes | 
 
 Lazy chunk files    | Names          |  Raw size
-chunk-SORQMLEE.mjs  | jobs-component |   2.33 kB | 
+chunk-V7BU7A6H.mjs  | jobs-component |  10.63 kB | 
 
-Application bundle generation complete. [0.461 seconds]
+Application bundle generation complete. [0.221 seconds]
 
 Page reload sent to client(s).
 ❯ Changes detected. Rebuilding...
@@ -75,502 +1136,59 @@ Initial chunk files | Names                       |  Raw size
 main.js             | main                        |  36.49 kB | 
 
 Lazy chunk files    | Names                       |  Raw size
-chunk-CPPKZIK3.js   | growth-statistics-component |   2.53 kB | 
+chunk-IPZFEF6B.js   | growth-statistics-component |   9.27 kB | 
 
 
 Server bundles     
 Initial chunk files | Names                       |  Raw size
-chunk-J3OWEKWS.mjs  | -                           |  36.96 kB | 
+chunk-KSC4OWKL.mjs  | -                           |  36.96 kB | 
 server.mjs          | server                      |   1.42 kB | 
 main.server.mjs     | main.server                 | 831 bytes | 
 
 Lazy chunk files    | Names                       |  Raw size
-chunk-DQIJGQ27.mjs  | growth-statistics-component |   2.56 kB | 
+chunk-LFNUWXX5.mjs  | growth-statistics-component |   9.31 kB | 
 
-Application bundle generation complete. [0.332 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                     |  Raw size
-main.js             | main                      |  36.49 kB | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-D73OS4YF.js   | recommendations-component |   2.52 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                     |  Raw size
-chunk-RITBDF3L.mjs  | -                         |  36.96 kB | 
-server.mjs          | server                    |   1.42 kB | 
-main.server.mjs     | main.server               | 831 bytes | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-UBYFGL3P.mjs  | recommendations-component |   2.55 kB | 
-
-Application bundle generation complete. [0.255 seconds]
+Application bundle generation complete. [0.087 seconds]
 
 Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                       |  Raw size
-main.js             | main                        |  36.49 kB | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-CGLEOWP6.js   | growth-statistics-component |   2.55 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                       |  Raw size
-chunk-3EBXN3IC.mjs  | -                           |  36.96 kB | 
-server.mjs          | server                      |   1.42 kB | 
-main.server.mjs     | main.server                 | 831 bytes | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-HZGOSCRB.mjs  | growth-statistics-component |   2.58 kB | 
-
-Application bundle generation complete. [0.107 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |  36.49 kB | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-JLINF2GJ.js   | jobs-component |   2.32 kB | 
-
-
-Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-FZLSSO4H.mjs  | -              |  36.96 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-24ZU5TFV.mjs  | jobs-component |   2.35 kB | 
-
-Application bundle generation complete. [0.100 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                     |  Raw size
-main.js             | main                      |  36.49 kB | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-3SZ4Z262.js   | recommendations-component |   2.54 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                     |  Raw size
-chunk-7PJTLTZQ.mjs  | -                         |  36.96 kB | 
-server.mjs          | server                    |   1.42 kB | 
-main.server.mjs     | main.server               | 831 bytes | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-D7WSSM4G.mjs  | recommendations-component |   2.57 kB | 
-
-Application bundle generation complete. [0.085 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |  36.49 kB | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-J7GJWIG3.js   | jobs-component |   2.34 kB | 
-
-
-Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-YKKCVMDF.mjs  | -              |  36.96 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-CZNNTHFC.mjs  | jobs-component |   2.38 kB | 
-
-Application bundle generation complete. [0.088 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                       |  Raw size
-main.js             | main                        |  36.49 kB | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-3HPKLUPZ.js   | growth-statistics-component |   2.57 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                       |  Raw size
-chunk-7O6ROEJT.mjs  | -                           |  36.96 kB | 
-server.mjs          | server                      |   1.42 kB | 
-main.server.mjs     | main.server                 | 831 bytes | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-NAQ2JATT.mjs  | growth-statistics-component |   2.61 kB | 
-
-Application bundle generation complete. [0.104 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                     |  Raw size
-main.js             | main                      |  36.49 kB | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-KUAFM2OV.js   | recommendations-component |   2.56 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                     |  Raw size
-chunk-S26EPEOM.mjs  | -                         |  36.96 kB | 
-server.mjs          | server                    |   1.42 kB | 
-main.server.mjs     | main.server               | 831 bytes | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-PYIIOIIL.mjs  | recommendations-component |   2.60 kB | 
-
-Application bundle generation complete. [0.133 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |  36.49 kB | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-NHUKM2OU.js   | jobs-component |   2.38 kB | 
-
-
-Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-IGQZODQ6.mjs  | -              |  36.96 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-PCJ7HHCG.mjs  | jobs-component |   2.41 kB | 
-
-Application bundle generation complete. [0.093 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                     |  Raw size
-main.js             | main                      |  36.49 kB | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-H5DL3DES.js   | recommendations-component |   2.60 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                     |  Raw size
-chunk-VEMOOBXF.mjs  | -                         |  36.96 kB | 
-server.mjs          | server                    |   1.42 kB | 
-main.server.mjs     | main.server               | 831 bytes | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-KYZMEZX7.mjs  | recommendations-component |   2.63 kB | 
-
-Application bundle generation complete. [0.103 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                       |  Raw size
-main.js             | main                        |  36.49 kB | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-5FV4ONK2.js   | growth-statistics-component |   2.61 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                       |  Raw size
-chunk-6NFR2NIN.mjs  | -                           |  36.96 kB | 
-server.mjs          | server                      |   1.42 kB | 
-main.server.mjs     | main.server                 | 831 bytes | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-KSYKMFBS.mjs  | growth-statistics-component |   2.64 kB | 
-
-Application bundle generation complete. [0.090 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                       |  Raw size
-main.js             | main                        |  36.49 kB | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-YN6UITTX.js   | growth-statistics-component |   2.66 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                       |  Raw size
-chunk-6GJZ6EVC.mjs  | -                           |  36.96 kB | 
-server.mjs          | server                      |   1.42 kB | 
-main.server.mjs     | main.server                 | 831 bytes | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-H4BO3LMC.mjs  | growth-statistics-component |   2.69 kB | 
-
-Application bundle generation complete. [0.078 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |  36.49 kB | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-QZ3YIH6U.js   | jobs-component |   2.43 kB | 
-
-
-Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-DTPLZPCT.mjs  | -              |  36.96 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-W6KATXAA.mjs  | jobs-component |   2.46 kB | 
-
-Application bundle generation complete. [0.070 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                     |  Raw size
-main.js             | main                      |  36.49 kB | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-JNUTYNY6.js   | recommendations-component |   2.65 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                     |  Raw size
-chunk-E2PH2TWU.mjs  | -                         |  36.96 kB | 
-server.mjs          | server                    |   1.42 kB | 
-main.server.mjs     | main.server               | 831 bytes | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-WGMMFYVP.mjs  | recommendations-component |   2.68 kB | 
-
-Application bundle generation complete. [0.073 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |  36.49 kB | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-GTLHXUSK.js   | jobs-component |   2.52 kB | 
-
-
-Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-U5DAW6PW.mjs  | -              |  36.96 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-VOPI4WR3.mjs  | jobs-component |   2.56 kB | 
-
-Application bundle generation complete. [0.201 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                       |  Raw size
-main.js             | main                        |  36.49 kB | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-JHKOFQQC.js   | growth-statistics-component |   2.75 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                       |  Raw size
-chunk-WMBMHHS3.mjs  | -                           |  36.96 kB | 
-server.mjs          | server                      |   1.42 kB | 
-main.server.mjs     | main.server                 | 831 bytes | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-426SRO4U.mjs  | growth-statistics-component |   2.79 kB | 
-
-Application bundle generation complete. [0.159 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                     |  Raw size
-main.js             | main                      |  36.49 kB | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-NO7QZF7T.js   | recommendations-component |   2.74 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                     |  Raw size
-chunk-NRSFCL2G.mjs  | -                         |  36.96 kB | 
-server.mjs          | server                    |   1.42 kB | 
-main.server.mjs     | main.server               | 831 bytes | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-6XIMTMI5.mjs  | recommendations-component |   2.78 kB | 
-
-Application bundle generation complete. [0.128 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |  36.49 kB | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-GWDRAVZB.js   | jobs-component |   2.49 kB | 
-
-
-Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-SG4AQJRJ.mjs  | -              |  36.96 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-MU4KLRWN.mjs  | jobs-component |   2.52 kB | 
-
-Application bundle generation complete. [0.119 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                     |  Raw size
-main.js             | main                      |  36.49 kB | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-EN2ASLPN.js   | recommendations-component |   2.71 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                     |  Raw size
-chunk-UITPXTVC.mjs  | -                         |  36.96 kB | 
-server.mjs          | server                    |   1.42 kB | 
-main.server.mjs     | main.server               | 831 bytes | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-IMMB423R.mjs  | recommendations-component |   2.75 kB | 
-
-Application bundle generation complete. [0.106 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                       |  Raw size
-main.js             | main                        |  36.49 kB | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-XPVDTRDI.js   | growth-statistics-component |   2.72 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                       |  Raw size
-chunk-QNC4555O.mjs  | -                           |  36.96 kB | 
-server.mjs          | server                      |   1.42 kB | 
-main.server.mjs     | main.server                 | 831 bytes | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-OVHVZBVR.mjs  | growth-statistics-component |   2.76 kB | 
-
-Application bundle generation complete. [0.084 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                       |  Raw size
-main.js             | main                        |  36.49 kB | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-FKO5NO43.js   | growth-statistics-component |   2.67 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                       |  Raw size
-chunk-4ZANHDHR.mjs  | -                           |  36.96 kB | 
-server.mjs          | server                      |   1.42 kB | 
-main.server.mjs     | main.server                 | 831 bytes | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-3GPY3KBR.mjs  | growth-statistics-component |   2.71 kB | 
-
-Application bundle generation complete. [0.079 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |  36.49 kB | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-F5WHXQRV.js   | jobs-component |   2.44 kB | 
-
-
-Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-7JJK4FFD.mjs  | -              |  36.96 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-4VRIFPRM.mjs  | jobs-component |   2.48 kB | 
-
-Application bundle generation complete. [0.073 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                     |  Raw size
-main.js             | main                      |  36.49 kB | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-Q5IEF5CL.js   | recommendations-component |   2.67 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                     |  Raw size
-chunk-KDN4ED7X.mjs  | -                         |  36.96 kB | 
-server.mjs          | server                    |   1.42 kB | 
-main.server.mjs     | main.server               | 831 bytes | 
-
-Lazy chunk files    | Names                     |  Raw size
-chunk-F6JFAWYU.mjs  | recommendations-component |   2.70 kB | 
-
-Application bundle generation complete. [0.075 seconds]
-
-Page reload sent to client(s).
+3:07:28 PM [vite] (ssr) ✨ new dependencies optimized: @angular/forms
+3:07:28 PM [vite] (ssr) ✨ optimized dependencies changed. reloading
+ERROR RuntimeError: NG0203: inject() must be called from an injection context such as a constructor, a factory function, a field initializer, or a function used with `runInInjectionContext`. Find more at https://angular.dev/errors/NG0203
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:12866:11)
+    at ɵɵinject (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:12876:59)
+    at Object.factory (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:24275:45)
+    at eval (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:13585:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:12742:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:13584:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:13479:23)
+    at Object.def.getStandaloneInjector (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:24296:31)
+    at createRootViewInjector (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:23055:44)
+    at ComponentFactory.create (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:23122:32) {
+  code: -203
+}
+ERROR RuntimeError: NG0203: inject() must be called from an injection context such as a constructor, a factory function, a field initializer, or a function used with `runInInjectionContext`. Find more at https://angular.dev/errors/NG0203
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:12866:11)
+    at ɵɵinject (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:12876:59)
+    at Object.factory (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:24275:45)
+    at eval (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:13585:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:12742:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:13584:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:13479:23)
+    at Object.def.getStandaloneInjector (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:24296:31)
+    at createRootViewInjector (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:23055:44)
+    at ComponentFactory.create (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:23122:32) {
+  code: -203
+}
+ERROR RuntimeError: NG0203: inject() must be called from an injection context such as a constructor, a factory function, a field initializer, or a function used with `runInInjectionContext`. Find more at https://angular.dev/errors/NG0203
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:12866:11)
+    at ɵɵinject (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:12876:59)
+    at Object.factory (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:24275:45)
+    at eval (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:13585:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:12742:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:13584:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:13479:23)
+    at Object.def.getStandaloneInjector (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:24296:31)
+    at createRootViewInjector (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:23055:44)
+    at ComponentFactory.create (/home/kavia/workspace/code-generation/careernavigator-38950-441f875a/careernavigator/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-62672OIL.js:23122:32) {
+  code: -203
+}

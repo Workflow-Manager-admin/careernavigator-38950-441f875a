@@ -13,10 +13,7 @@ export class DataUSAService {
   // Sample endpoint, replace with actual DataUSA API endpoint and parameters.
   private readonly BASE_URL = 'https://datausa.io/api/data';
 
-  constructor(private http: HttpClient) {
-    // LINT: explicitly use variable for now
-    this.http.toString();
-  }
+  constructor(private http: HttpClient) {}
 
   // PUBLIC_INTERFACE
   /**
