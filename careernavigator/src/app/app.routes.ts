@@ -14,7 +14,7 @@ export const routes: Routes = [
       {
         path: 'home',
         loadComponent: () =>
-          import('./pages/home/home.component').then(m => m.HomeComponent)
+          import('./pages/home/dashboard-home.component').then(m => m.DashboardHomeComponent)
       },
       {
         path: 'recommendations',
@@ -25,6 +25,11 @@ export const routes: Routes = [
         path: 'statistics',
         loadComponent: () =>
           import('./pages/statistics/statistics.component').then(m => m.StatisticsComponent)
+      },
+      {
+        path: 'growth-statistics',
+        loadComponent: () =>
+          import('./pages/statistics/growth-statistics.component').then(m => m.GrowthStatisticsComponent)
       },
       {
         path: 'jobs',
