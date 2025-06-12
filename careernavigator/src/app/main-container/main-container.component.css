@@ -1,7 +1,10 @@
 .main-layout {
   display: flex;
   min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   background: var(--background-light);
+  overflow: hidden;
 }
 
 .main-content {
@@ -9,9 +12,12 @@
   padding: 2.4rem 2.2rem 2rem 2.4rem;
   background: var(--background-light);
   min-height: 100vh;
+  height: 100vh;
   font-family: 'Inter', Arial, sans-serif;
   box-sizing: border-box;
   overflow-x: auto;
+  overflow-y: auto;
+  position: relative;
 }
 
 /* Add a formal panel look for dashboard cards/content areas */
@@ -35,9 +41,14 @@
   .main-layout {
     flex-direction: column;
     min-height: unset;
+    height: auto;
   }
   .main-content {
     min-height: unset;
+    height: auto;
     padding: 0.6rem 0.2rem 1rem 0.2rem;
+    overflow-x: auto;
+    overflow-y: auto;
+    box-sizing: border-box;
   }
 }
