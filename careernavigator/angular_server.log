@@ -7,38 +7,40 @@ The "disableHostCheck" option will not be used because it is not supported by th
 ❯ Building...
 ✔ Building...
 Browser bundles     
-Initial chunk files  | Names                     |  Raw size
-polyfills.js         | polyfills                 |  90.20 kB | 
-main.js              | main                      |  28.51 kB | 
-chunk-YQOESBWP.js    | -                         | 754 bytes | 
-styles.css           | styles                    |  95 bytes | 
+Initial chunk files  | Names                       |  Raw size
+polyfills.js         | polyfills                   |  90.20 kB | 
+main.js              | main                        |  28.79 kB | 
+chunk-YQOESBWP.js    | -                           | 754 bytes | 
+styles.css           | styles                      |  95 bytes | 
 
-                     | Initial total             | 119.56 kB
+                     | Initial total               | 119.84 kB
 
-Lazy chunk files     | Names                     |  Raw size
-chunk-RHTMFAYC.js    | recommendations-component |   1.30 kB | 
-chunk-AFXL643V.js    | statistics-component      |   1.23 kB | 
-chunk-Y2C2ULPK.js    | profile-component         |   1.16 kB | 
-chunk-EEFR4D5G.js    | jobs-component            |   1.12 kB | 
-chunk-ZUZ7HFVS.js    | home-component            |   1.12 kB | 
+Lazy chunk files     | Names                       |  Raw size
+chunk-KUZ3CYBW.js    | growth-statistics-component |   1.33 kB | 
+chunk-RHTMFAYC.js    | recommendations-component   |   1.30 kB | 
+chunk-VMHR2GUF.js    | dashboard-home-component    |   1.26 kB | 
+chunk-AFXL643V.js    | statistics-component        |   1.23 kB | 
+chunk-Y2C2ULPK.js    | profile-component           |   1.16 kB | 
+chunk-EEFR4D5G.js    | jobs-component              |   1.12 kB | 
 
 
 Server bundles      
-Initial chunk files  | Names                     |  Raw size
-polyfills.server.mjs | polyfills.server          | 572.91 kB | 
-chunk-4N2UBSEQ.mjs   | -                         |  28.98 kB | 
-server.mjs           | server                    |   1.42 kB | 
-main.server.mjs      | main.server               | 831 bytes | 
-chunk-FFILDKJJ.mjs   | -                         | 788 bytes | 
+Initial chunk files  | Names                       |  Raw size
+polyfills.server.mjs | polyfills.server            | 572.91 kB | 
+chunk-FGJZ4Z67.mjs   | -                           |  29.26 kB | 
+server.mjs           | server                      |   1.42 kB | 
+main.server.mjs      | main.server                 | 831 bytes | 
+chunk-FFILDKJJ.mjs   | -                           | 788 bytes | 
 
-Lazy chunk files     | Names                     |  Raw size
-chunk-KCMPUHS7.mjs   | recommendations-component |   1.34 kB | 
-chunk-WBWRHEXS.mjs   | statistics-component      |   1.26 kB | 
-chunk-DYHVURIR.mjs   | profile-component         |   1.20 kB | 
-chunk-DA573AC4.mjs   | jobs-component            |   1.16 kB | 
-chunk-P6XZQT3M.mjs   | home-component            |   1.16 kB | 
+Lazy chunk files     | Names                       |  Raw size
+chunk-63B4BVQ4.mjs   | growth-statistics-component |   1.36 kB | 
+chunk-KCMPUHS7.mjs   | recommendations-component   |   1.34 kB | 
+chunk-JUCKFMSK.mjs   | dashboard-home-component    |   1.30 kB | 
+chunk-WBWRHEXS.mjs   | statistics-component        |   1.26 kB | 
+chunk-DYHVURIR.mjs   | profile-component           |   1.20 kB | 
+chunk-DA573AC4.mjs   | jobs-component              |   1.16 kB | 
 
-Application bundle generation complete. [2.228 seconds]
+Application bundle generation complete. [2.344 seconds]
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
@@ -46,45 +48,41 @@ NOTE: Raw file sizes do not reflect development server per-request transformatio
   ➜  Network: http://172.17.0.2:3000/
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names                       |  Raw size
-main.js             | main                        |  28.77 kB | 
+Initial chunk files | Names  | Raw size
+styles.css          | styles |  2.27 kB | 
 
-Lazy chunk files    | Names                       |  Raw size
-chunk-KUZ3CYBW.js   | growth-statistics-component |   1.33 kB | 
-
-
-Server bundles     
-Initial chunk files | Names                       |  Raw size
-chunk-GDJNSA7K.mjs  | -                           |  29.24 kB | 
-server.mjs          | server                      |   1.42 kB | 
-main.server.mjs     | main.server                 | 831 bytes | 
-
-Lazy chunk files    | Names                       |  Raw size
-chunk-63B4BVQ4.mjs  | growth-statistics-component |   1.36 kB | 
-
-Application bundle generation complete. [0.460 seconds]
+Application bundle generation complete. [0.058 seconds]
 
 Page reload sent to client(s).
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
 Browser bundles    
-Initial chunk files | Names                    |  Raw size
-main.js             | main                     |  28.79 kB | 
-
-Lazy chunk files    | Names                    |  Raw size
-chunk-VMHR2GUF.js   | dashboard-home-component |   1.26 kB | 
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  30.16 kB | 
 
 
 Server bundles     
-Initial chunk files | Names                    |  Raw size
-chunk-FGJZ4Z67.mjs  | -                        |  29.26 kB | 
-server.mjs          | server                   |   1.42 kB | 
-main.server.mjs     | main.server              | 831 bytes | 
+Initial chunk files | Names       |  Raw size
+chunk-EOZHBERX.mjs  | -           |  30.63 kB | 
+server.mjs          | server      |   1.42 kB | 
+main.server.mjs     | main.server | 831 bytes | 
 
-Lazy chunk files    | Names                    |  Raw size
-chunk-JUCKFMSK.mjs  | dashboard-home-component |   1.30 kB | 
+Application bundle generation complete. [0.404 seconds]
 
-Application bundle generation complete. [0.327 seconds]
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  30.95 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-RQHYKWTL.mjs  | -           |  31.42 kB | 
+server.mjs          | server      |   1.42 kB | 
+main.server.mjs     | main.server | 831 bytes | 
+
+Application bundle generation complete. [0.178 seconds]
 
 Page reload sent to client(s).

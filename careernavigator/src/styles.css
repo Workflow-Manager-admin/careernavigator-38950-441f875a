@@ -1,1 +1,117 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Formal CareerNavigator Color Scheme */
+  --primary-color: #1A237E;
+  --secondary-color: #3949AB;
+  --accent-color: #FBC02D;
+
+  --background-light: #f6f7fb;
+  --background-white: #fff;
+  --text-main: #2D2F36;
+  --text-muted: #555c66;
+
+  --border-radius: 10px;
+  --sidebar-width: 220px;
+  --transition-formal: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+/* Typography */
+html, body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: var(--background-light);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Inter Tight', 'Inter', Arial, sans-serif;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 1em;
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+p {
+  color: var(--text-muted);
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* Links, buttons */
+a, a:visited {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: var(--transition-formal);
+}
+a:hover, a:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  background: var(--accent-color);
+  color: #333;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1.3rem;
+  cursor: pointer;
+  transition: var(--transition-formal);
+}
+button:hover, button:focus {
+  background: #ffd943;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--background-light);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 100px;
+}
+
+/* Utility spacing */
+.spaced {
+  margin-bottom: 2rem;
+}
+.mt-2 { margin-top: 2rem !important; }
+.mb-2 { margin-bottom: 2rem !important; }
+.pt-2 { padding-top: 2rem !important; }
+.pb-2 { padding-bottom: 2rem !important; }
+
+/* Responsiveness */
+@media (max-width: 900px) {
+  :root {
+    --sidebar-width: 170px;
+  }
+  html { font-size: 15px; }
+}
+
+/* Light theme backgrounds */
+.formal-panel {
+  background: var(--background-white);
+  border-radius: var(--border-radius);
+  box-shadow: 0 1px 4px rgba(44,49,73,0.08);
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+/* App root custom, suppress placeholder styles */
+body, app-root {
+  min-height: 100vh;
+  background: var(--background-light) !important;
+}

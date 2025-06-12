@@ -1,13 +1,43 @@
 .main-layout {
   display: flex;
   min-height: 100vh;
-  background: #f6f7fb;
+  background: var(--background-light);
 }
 
 .main-content {
   flex: 1;
-  padding: 2.5rem 2rem 2rem 2.5rem;
-  background: #f6f7fb;
+  padding: 2.4rem 2.2rem 2rem 2.4rem;
+  background: var(--background-light);
   min-height: 100vh;
   font-family: 'Inter', Arial, sans-serif;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+/* Add a formal panel look for dashboard cards/content areas */
+.formal-panel,
+.main-content > section,
+.main-content > div.panel {
+  background: var(--background-white);
+  border-radius: var(--border-radius);
+  box-shadow: 0 1px 7px rgba(58,56,137,0.09);
+  padding: 2rem 2.2rem;
+  margin-bottom: 2.2rem;
+}
+
+@media (max-width: 900px) {
+  .main-content {
+    padding: 1.1rem 0.6rem 1rem 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-layout {
+    flex-direction: column;
+    min-height: unset;
+  }
+  .main-content {
+    min-height: unset;
+    padding: 0.6rem 0.2rem 1rem 0.2rem;
+  }
 }
