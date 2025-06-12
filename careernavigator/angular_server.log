@@ -1,0 +1,203 @@
+
+> angular@0.0.0 start
+> ng serve --host 0.0.0.0  --no-hmr --disable-host-check --port 3000
+
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+The "disableHostCheck" option will not be used because it is not supported by the "@angular-devkit/build-angular:application" builder.
+❯ Building...
+✔ Building...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  22.59 kB | 
+styles.css           | styles           |  95 bytes | 
+
+                     | Initial total    | 112.88 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-6XEG6CM6.mjs   | -                |  23.02 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [2.165 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.345 seconds]
+
+▲ [WARNING] TS-998113: All imports are unused [plugin angular-compiler]
+
+    src/app/app.component.ts:6:2:
+      6 │   imports: [RouterOutlet],
+        ╵   ~~~~~~~
+
+
+✘ [ERROR] NG8001: 'app-main-container' is not a known element:
+1. If 'app-main-container' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-main-container' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:335:0:
+      335 │ <app-main-container></app-main-container>
+          ╵ ~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:7:15:
+      7 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.380 seconds]
+
+▲ [WARNING] TS-998113: All imports are unused [plugin angular-compiler]
+
+    src/app/app.component.ts:6:2:
+      6 │   imports: [RouterOutlet],
+        ╵   ~~~~~~~
+
+
+✘ [ERROR] NG8001: 'app-main-container' is not a known element:
+1. If 'app-main-container' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-main-container' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:335:0:
+      335 │ <app-main-container></app-main-container>
+          ╵ ~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:7:15:
+      7 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/recommendations/recommendations.component"
+
+    src/app/app.routes.ts:19:44:
+      19 │ ...=> import('./pages/recommendations/recommendations.component')....
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/recommendations/recommendations.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:22:17:
+      22 │ ...   import('./pages/recommendations/recommendations.component')....
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/statistics/statistics.component"
+
+    src/app/app.routes.ts:23:44:
+      23 │ ... => import('./pages/statistics/statistics.component').then(m =>...
+         ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/statistics/statistics.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:27:17:
+      27 │ ...    import('./pages/statistics/statistics.component').then(m =>...
+         ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/jobs/jobs.component"
+
+    src/app/app.routes.ts:27:44:
+      27 │ ...nt: () => import('./pages/jobs/jobs.component').then(m => m.Job...
+         ╵                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/profile/profile.component"
+
+    src/app/app.routes.ts:31:44:
+      31 │ ... () => import('./pages/profile/profile.component').then(m => m....
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/jobs/jobs.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:32:17:
+      32 │           import('./pages/jobs/jobs.component').then(m => m.JobsCo...
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './pages/profile/profile.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:37:17:
+      37 │           import('./pages/profile/profile.component').then(m => m....
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/recommendations/recommendations.component"
+
+    src/app/app.routes.ts:19:44:
+      19 │ ...=> import('./pages/recommendations/recommendations.component')....
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/statistics/statistics.component"
+
+    src/app/app.routes.ts:23:44:
+      23 │ ... => import('./pages/statistics/statistics.component').then(m =>...
+         ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/jobs/jobs.component"
+
+    src/app/app.routes.ts:27:44:
+      27 │ ...nt: () => import('./pages/jobs/jobs.component').then(m => m.Job...
+         ╵                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./pages/profile/profile.component"
+
+    src/app/app.routes.ts:31:44:
+      31 │ ... () => import('./pages/profile/profile.component').then(m => m....
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names                     |  Raw size
+polyfills.js         | polyfills                 |  90.20 kB | 
+main.js              | main                      |  28.51 kB | 
+chunk-YQOESBWP.js    | -                         | 754 bytes | 
+styles.css           | styles                    |  95 bytes | 
+
+                     | Initial total             | 119.56 kB
+
+Lazy chunk files     | Names                     |  Raw size
+chunk-RHTMFAYC.js    | recommendations-component |   1.30 kB | 
+chunk-AFXL643V.js    | statistics-component      |   1.23 kB | 
+chunk-Y2C2ULPK.js    | profile-component         |   1.16 kB | 
+chunk-EEFR4D5G.js    | jobs-component            |   1.12 kB | 
+chunk-ZUZ7HFVS.js    | home-component            |   1.12 kB | 
+
+
+Server bundles      
+Initial chunk files  | Names                     |  Raw size
+polyfills.server.mjs | polyfills.server          | 572.91 kB | 
+chunk-4N2UBSEQ.mjs   | -                         |  28.98 kB | 
+server.mjs           | server                    |   1.42 kB | 
+main.server.mjs      | main.server               | 831 bytes | 
+chunk-FFILDKJJ.mjs   | -                         | 788 bytes | 
+
+Lazy chunk files     | Names                     |  Raw size
+chunk-KCMPUHS7.mjs   | recommendations-component |   1.34 kB | 
+chunk-WBWRHEXS.mjs   | statistics-component      |   1.26 kB | 
+chunk-DYHVURIR.mjs   | profile-component         |   1.20 kB | 
+chunk-DA573AC4.mjs   | jobs-component            |   1.16 kB | 
+chunk-P6XZQT3M.mjs   | home-component            |   1.16 kB | 
+
+Application bundle generation complete. [0.448 seconds]
+
+Page reload sent to client(s).

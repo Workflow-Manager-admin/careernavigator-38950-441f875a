@@ -1,0 +1,35 @@
+.sidebar {
+  width: 220px;
+  background: #1A237E;
+  color: #fff;
+  height: 100vh;
+  padding-top: 40px;
+  position: sticky;
+  top: 0;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0 0 0 0.5rem;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 16px 0;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.11rem;
+  font-weight: 500;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.sidebar a.active, .sidebar a:hover {
+  background: #3949AB;
+}

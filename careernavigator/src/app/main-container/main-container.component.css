@@ -1,0 +1,13 @@
+.main-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f6f7fb;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2.5rem 2rem 2rem 2.5rem;
+  background: #f6f7fb;
+  min-height: 100vh;
+  font-family: 'Inter', Arial, sans-serif;
+}
